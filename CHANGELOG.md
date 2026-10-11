@@ -2,6 +2,12 @@
 
 All notable changes to tmux-powerkit will be documented in this file.
 
+## [7.5.1](https://github.com/fabioluciano/tmux-powerkit/compare/v7.5.0...v7.5.1) (2026-10-11)
+
+### Bug Fixes
+
+* **git:** avoid index.lock contention in status polling ([#264](https://github.com/fabioluciano/tmux-powerkit/issues/264)) ([ae24ba1](https://github.com/fabioluciano/tmux-powerkit/commit/ae24ba1be7def89371725cce467940be4d5e5be6))
+
 ## [7.5.0](https://github.com/fabioluciano/tmux-powerkit/compare/v7.4.0...v7.5.0) (2026-09-27)
 
 ### Features
