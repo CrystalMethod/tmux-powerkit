@@ -2,6 +2,12 @@
 
 All notable changes to tmux-powerkit will be documented in this file.
 
+## [7.6.0](https://github.com/fabioluciano/tmux-powerkit/compare/v7.5.1...v7.6.0) (2026-10-15)
+
+### Features
+
+* **livetennis:** add live match snapshots ([#265](https://github.com/fabioluciano/tmux-powerkit/issues/265)) ([cb57b3c](https://github.com/fabioluciano/tmux-powerkit/commit/cb57b3cb383d49c3672e5388648dc0dacd1b5c1d))
+
 ## [7.5.1](https://github.com/fabioluciano/tmux-powerkit/compare/v7.5.0...v7.5.1) (2026-10-11)
 
 ### Bug Fixes
