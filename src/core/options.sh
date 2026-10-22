@@ -65,6 +65,9 @@ _batch_load_tmux_options() {
             local value="${BASH_REMATCH[2]}"
             if [[ "$value" =~ ^\"(.*)\"$ ]]; then
                 value="${BASH_REMATCH[1]}"
+                # tmux serializes embedded double quotes as \" ; unescape them
+                # so values like external(\"a\"|\"b\") parse correctly.
+                value="${value//\\\"/\"}"
             elif [[ "$value" == "''" ]]; then
                 # tmux serializes an empty string as two single quotes.
                 value=""
